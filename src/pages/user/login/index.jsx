@@ -34,7 +34,7 @@ const Login = props => {
 
   const handleQCLogin = () => {
     window.location.href = 
-    'https://login.dg-work.cn/oauth2/auth.htm?response_type=code&client_id=plan_test_create_dingoa&redirect_uri=http://192.168.3.75:8000/user/auth2&scope=get_user_info&authType=QRCODE'
+    'https://login.dg-work.cn/oauth2/auth.htm?response_type=code&client_id=plan_test_create_dingoa&redirect_uri=http://192.168.0.21:8000/user/auth2&scope=get_user_info&authType=QRCODE'
   }
 
   return (

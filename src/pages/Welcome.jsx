@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { PageContainer } from '@ant-design/pro-layout';
 import { Card, Alert, Typography, message, Row, Col } from 'antd';
 import styles from './Welcome.less';
-import { set } from 'lodash';
 import ReactJson from 'react-json-view';
 
 const CodePreview = ({ children }) => (
