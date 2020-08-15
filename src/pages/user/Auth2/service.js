@@ -1,7 +1,7 @@
 import request from '@/utils/request';
 
 export async function qcLogin(params) {
-  return request('/server/api/qclogin', {
+  return request('/server/api/qcLogin', {
     params,
   });
 }
